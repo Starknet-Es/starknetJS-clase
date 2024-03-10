@@ -18,7 +18,7 @@ function Root({ children }: { children: React.ReactNode }) {
     // Show these connectors if the user has no connector installed.
     recommended: [argent(), braavos()],
     // Randomize the order of the connectors.
-    order: "random",
+    order: "random"
   });
 
   return (
