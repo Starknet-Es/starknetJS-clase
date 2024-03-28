@@ -4,6 +4,7 @@ import { useContractWrite, useAccount, useNetwork, useContract } from "@starknet
 import { ERC20 as erc20ABI } from "../../ABI's/ERC20";
 import { useMemo } from "react";
 
+// TODO: transferir custom tokens erc20 a una dirección dada en un input por el usuario;
 export default function Transfer() {
     const { address } = useAccount();
 	const { chain } = useNetwork();

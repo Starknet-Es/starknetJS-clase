@@ -1,8 +1,8 @@
 import React from "react";
-// import { useBlock } from "@starknet-react/core";
 import Header from "./components/Header";
 import Balances from "./components/starknet/Balances";
 import Transfer from "./components/starknet/Transfer";
+import Airdrop from "./components/starknet/Airdrop";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Balances />
       <Transfer />
+      <Airdrop />
     </main>
   );
 }
